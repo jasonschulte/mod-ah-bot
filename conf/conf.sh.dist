@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
+DB_WORLD_CUSTOM_PATHS+=(
+        $MOD_AH_BOT_ROOT"/data/sql/db-world/"
+)
+
 #
-# CUSTOM
+# UPDATES
 #
 
-DB_WORLD_CUSTOM_PATHS+=(
-	$MOD_AH_BOT_ROOT"/sql/world/base/"
+DB_WORLD_UPDATE_PATHS+=(
+        $MOD_AH_BOT_ROOT"/data/sql/updates/world/"
 )
